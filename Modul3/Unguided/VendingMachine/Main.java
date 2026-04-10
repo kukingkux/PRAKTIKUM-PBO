@@ -60,6 +60,9 @@ public class Main {
             }
         }
 
+        System.out.println();
+        wallahiVM.tampilkanStatus();
+
         reader.close();
     }
 }
