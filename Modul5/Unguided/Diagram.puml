@@ -1,0 +1,38 @@
+@startuml
+class Dosen {
+  - nip : String
+  - nama : String
+  + Dosen(nip : String, nama : String)
+  + mengajar() : void
+  + mengajar(prodi : Prodi) : void
+  + getNip() : String
+  + getNama() : String
+  + toString() : String
+}
+
+class Prodi {
+  - kodeProdi : String
+  - namaProdi : String
+  - daftarDosen : ArrayList<Dosen>
+  + Prodi(kodeProdi : String, namaProdi : String)
+  + tambahDosen(dosen : Dosen) : void
+  + tampilkanDosen() : void
+  + getKodeProdi() : String
+  + getNamaProdi() : String
+}
+
+class Fakultas {
+  - kodeFakultas : String
+  - namaFakultas : String
+  - daftarProdi : ArrayList<Prodi>
+  + Fakultas(kodeFakultas : String, namaFakultas : String)
+  + tambahProdi(prodi : Prodi) : void
+  + tampilkanProdi() : void
+  + getKodeFakultas() : String
+  + getNamaFakultas() : String
+}
+
+Fakultas *-- "1..*" Prodi : komposisi
+Prodi o-- "0..*" Dosen : agregasi
+Dosen --> Prodi : asosiasi / mengajar
+@enduml
