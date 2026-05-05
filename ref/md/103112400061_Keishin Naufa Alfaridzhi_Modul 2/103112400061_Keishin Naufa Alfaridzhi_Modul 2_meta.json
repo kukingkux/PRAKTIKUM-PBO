@@ -1,0 +1,414 @@
+{
+  "table_of_contents": [
+    {
+      "title": "LAPORAN PRAKTIKUM",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          234.55859375,
+          99.494140625
+        ],
+        [
+          410.4360046386719,
+          97.849609375
+        ],
+        [
+          410.4360046386719,
+          113.62109375
+        ],
+        [
+          233.39453125,
+          113.62109375
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Identitas Praktikum",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.62499237060547,
+          150.474609375
+        ],
+        [
+          216.79296875,
+          148.830078125
+        ],
+        [
+          216.79296875,
+          161.89263916015625
+        ],
+        [
+          73.626953125,
+          161.89263916015625
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Identitas Mahasiswa",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.62499237060547,
+          309.994140625
+        ],
+        [
+          224.67999267578125,
+          308.349609375
+        ],
+        [
+          224.67999267578125,
+          322.32257080078125
+        ],
+        [
+          73.626953125,
+          322.32257080078125
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Algoritma & Penjelasan",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.208984375,
+          390.576171875
+        ],
+        [
+          238.23199462890625,
+          388.931640625
+        ],
+        [
+          238.23199462890625,
+          402.5425720214844
+        ],
+        [
+          74.208984375,
+          402.5425720214844
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Flowchart",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          114.078125,
+          616.0287017822266
+        ],
+        [
+          185.73199462890625,
+          616.0287017822266
+        ],
+        [
+          185.73199462890625,
+          627.1925659179688
+        ],
+        [
+          114.078125,
+          627.1925659179688
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Kode Program & Penjelasan",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          74.62499237060547,
+          69.892578125
+        ],
+        [
+          265.32501220703125,
+          69.892578125
+        ],
+        [
+          265.32501220703125,
+          81.87261962890625
+        ],
+        [
+          74.62499237060547,
+          81.87261962890625
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          91.669921875,
+          30.6787109375
+        ],
+        [
+          165.0159912109375,
+          29.1904296875
+        ],
+        [
+          165.0159912109375,
+          41.6787109375
+        ],
+        [
+          91.669921875,
+          41.6787109375
+        ]
+      ]
+    },
+    {
+      "title": "1. Inisialisasi Variabel dan Objek",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          92.62499237060547,
+          171.03125
+        ],
+        [
+          277.046875,
+          169.38671875
+        ],
+        [
+          276.9919738769531,
+          182.12872314453125
+        ],
+        [
+          91.9609375,
+          182.54296875
+        ]
+      ]
+    },
+    {
+      "title": "2. Menerima Input",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          92.54296875,
+          270.525390625
+        ],
+        [
+          198.76100158691406,
+          268.880859375
+        ],
+        [
+          198.76100158691406,
+          282.34869384765625
+        ],
+        [
+          91.37890625,
+          282.34869384765625
+        ]
+      ]
+    },
+    {
+      "title": "3. Input Handling",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          92.251953125,
+          330.55078125
+        ],
+        [
+          192.60398864746094,
+          328.90625
+        ],
+        [
+          192.60398864746094,
+          342.5587463378906
+        ],
+        [
+          92.251953125,
+          342.5587463378906
+        ]
+      ]
+    },
+    {
+      "title": "4. Fibonacci",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          91.669921875,
+          391.7787170410156
+        ],
+        [
+          161.57000732421875,
+          390.1650390625
+        ],
+        [
+          161.57000732421875,
+          402.7787170410156
+        ],
+        [
+          90.505859375,
+          402.7787170410156
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          23
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          404
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          210
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\103112400061_Keishin Naufa Alfaridzhi_Modul 2"
+}

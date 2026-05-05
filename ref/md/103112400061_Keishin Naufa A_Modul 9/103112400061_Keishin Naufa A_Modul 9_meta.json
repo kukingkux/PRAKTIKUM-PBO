@@ -1,0 +1,849 @@
+{
+  "table_of_contents": [
+    {
+      "title": "LAPORAN PRAKTIKUM",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          234.6800079345703,
+          99.494140625
+        ],
+        [
+          410.4360046386719,
+          97.849609375
+        ],
+        [
+          410.4360046386719,
+          113.62109375
+        ],
+        [
+          233.685546875,
+          113.62109375
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Identitas Praktikum",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.62499237060547,
+          150.474609375
+        ],
+        [
+          216.79296875,
+          148.830078125
+        ],
+        [
+          216.79296875,
+          161.89263916015625
+        ],
+        [
+          73.626953125,
+          161.89263916015625
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Identitas Mahasiswa",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.62499237060547,
+          310.81640625
+        ],
+        [
+          224.67999267578125,
+          309.171875
+        ],
+        [
+          224.67999267578125,
+          322.32257080078125
+        ],
+        [
+          74.5,
+          322.32257080078125
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Kode Program & Penjelasan",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.62499237060547,
+          390.576171875
+        ],
+        [
+          265.32501220703125,
+          388.931640625
+        ],
+        [
+          265.32501220703125,
+          402.5425720214844
+        ],
+        [
+          73.626953125,
+          402.5425720214844
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          91.37890625,
+          158.2861328125
+        ],
+        [
+          165.0159912109375,
+          156.6416015625
+        ],
+        [
+          165.0159912109375,
+          169.9287109375
+        ],
+        [
+          91.37890625,
+          170.6201171875
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          92.62499237060547,
+          372.486328125
+        ],
+        [
+          165.0159912109375,
+          372.486328125
+        ],
+        [
+          165.0159912109375,
+          383.998046875
+        ],
+        [
+          92.62499237060547,
+          383.998046875
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          91.087890625,
+          87.708740234375
+        ],
+        [
+          165.0139923095703,
+          86.337890625
+        ],
+        [
+          165.0139923095703,
+          98.708740234375
+        ],
+        [
+          89.923828125,
+          99.494140625
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          92.251953125,
+          423.0556640625
+        ],
+        [
+          165.0159912109375,
+          421.4111328125
+        ],
+        [
+          165.0159912109375,
+          435.5787353515625
+        ],
+        [
+          92.251953125,
+          435.5787353515625
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          92.62499237060547,
+          300.94921875
+        ],
+        [
+          165.0159912109375,
+          299.3046875
+        ],
+        [
+          165.0159912109375,
+          312.5587158203125
+        ],
+        [
+          92.62499237060547,
+          312.5587158203125
+        ]
+      ]
+    },
+    {
+      "title": "(InterfaceComparator.java)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          92.62499237060547,
+          365.908203125
+        ],
+        [
+          265.4309997558594,
+          364.263671875
+        ],
+        [
+          265.4309997558594,
+          378.5787353515625
+        ],
+        [
+          92.251953125,
+          379.064453125
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          91.37890625,
+          758.2787170410156
+        ],
+        [
+          165.0139923095703,
+          756.8955078125
+        ],
+        [
+          165.0139923095703,
+          769.2787170410156
+        ],
+        [
+          91.37890625,
+          769.2787170410156
+        ]
+      ]
+    },
+    {
+      "title": "(InterfaceComparable.java)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          92.62499237060547,
+          30.423828125
+        ],
+        [
+          266.2309875488281,
+          28.779296875
+        ],
+        [
+          266.2309875488281,
+          41.6787109375
+        ],
+        [
+          91.669921875,
+          41.935546875
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          92.62499237060547,
+          578.0287170410156
+        ],
+        [
+          165.0159912109375,
+          576.408203125
+        ],
+        [
+          165.0159912109375,
+          589.0287017822266
+        ],
+        [
+          92.62499237060547,
+          589.0287017822266
+        ]
+      ]
+    },
+    {
+      "title": "(Filtering.java)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          92.62499237060547,
+          626.6287078857422
+        ],
+        [
+          186.80101013183594,
+          625.744140625
+        ],
+        [
+          186.80101013183594,
+          637.6287078857422
+        ],
+        [
+          92.62499237060547,
+          638.900390625
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          92.54296875,
+          272.169921875
+        ],
+        [
+          165.0159912109375,
+          272.169921875
+        ],
+        [
+          165.0159912109375,
+          283.95867919921875
+        ],
+        [
+          92.54296875,
+          283.95867919921875
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Hasil Running Program",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          74.208984375,
+          342.4736328125
+        ],
+        [
+          235.431640625,
+          342.4736328125
+        ],
+        [
+          235.31800842285156,
+          355.142578125
+        ],
+        [
+          73.044921875,
+          355.142578125
+        ]
+      ]
+    },
+    {
+      "title": "Gambar 2. UpCast.java",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          270.64453125,
+          523.8714599609375
+        ],
+        [
+          388.21484375,
+          523.3720703125
+        ],
+        [
+          388.21484375,
+          535.8714599609375
+        ],
+        [
+          270.64453125,
+          535.8714599609375
+        ]
+      ]
+    },
+    {
+      "title": "Gambar 3. StaticVariable.java",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          254.9296875,
+          668.7214508056641
+        ],
+        [
+          403.9296875,
+          668.7214508056641
+        ],
+        [
+          403.9296875,
+          680.7214508056641
+        ],
+        [
+          254.9296875,
+          680.8359375
+        ]
+      ]
+    },
+    {
+      "title": "Gambar 4. StaticMethod.java",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          257.548828125,
+          751.9414596557617
+        ],
+        [
+          401.310546875,
+          751.55078125
+        ],
+        [
+          401.310546875,
+          763.9414596557617
+        ],
+        [
+          257.548828125,
+          763.9414596557617
+        ]
+      ]
+    },
+    {
+      "title": "Gambar 5. Collection.java",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          264.533203125,
+          388.109375
+        ],
+        [
+          394.49798583984375,
+          388.109375
+        ],
+        [
+          394.49798583984375,
+          400.44146728515625
+        ],
+        [
+          264.533203125,
+          400.44146728515625
+        ]
+      ]
+    },
+    {
+      "title": "Gambar 6. InterfaceComparator.java",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          238.05078125,
+          570.6914672851562
+        ],
+        [
+          420.7300109863281,
+          570.65234375
+        ],
+        [
+          420.7300109863281,
+          582.6914672851562
+        ],
+        [
+          238.05078125,
+          582.6914672851562
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Link Program Praktikum (Github)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          78.02499389648438,
+          272.5810546875
+        ],
+        [
+          299.4729919433594,
+          270.9365234375
+        ],
+        [
+          299.4729919433594,
+          287.12255859375
+        ],
+        [
+          77.41015625,
+          287.12255859375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          144
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          223
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          207
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          180
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          188
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          254
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          208
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          80
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\103112400061_Keishin Naufa A_Modul 9"
+}

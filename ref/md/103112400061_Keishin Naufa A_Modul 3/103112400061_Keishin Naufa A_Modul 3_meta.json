@@ -1,0 +1,467 @@
+{
+  "table_of_contents": [
+    {
+      "title": "LAPORAN PRAKTIKUM",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          234.6800079345703,
+          99.494140625
+        ],
+        [
+          410.4360046386719,
+          97.849609375
+        ],
+        [
+          410.4360046386719,
+          113.62109375
+        ],
+        [
+          233.685546875,
+          113.62109375
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Identitas Praktikum",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.62499237060547,
+          150.474609375
+        ],
+        [
+          216.79296875,
+          148.830078125
+        ],
+        [
+          216.79296875,
+          161.89263916015625
+        ],
+        [
+          73.626953125,
+          161.89263916015625
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Identitas Mahasiswa",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.62499237060547,
+          309.994140625
+        ],
+        [
+          224.67999267578125,
+          308.349609375
+        ],
+        [
+          224.67999267578125,
+          322.32257080078125
+        ],
+        [
+          74.5,
+          322.32257080078125
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Algoritma & Penjelasan",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.5,
+          390.576171875
+        ],
+        [
+          238.12200927734375,
+          388.931640625
+        ],
+        [
+          238.12200927734375,
+          402.5425720214844
+        ],
+        [
+          74.5,
+          402.5425720214844
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Kode Program & Penjelasan\n(VendingMachine.java)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          74.208984375,
+          49.7470703125
+        ],
+        [
+          265.697265625,
+          48.1025390625
+        ],
+        [
+          265.32501220703125,
+          81.708740234375
+        ],
+        [
+          73.044921875,
+          81.8154296875
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          92.54296875,
+          50.158203125
+        ],
+        [
+          165.0139923095703,
+          48.513671875
+        ],
+        [
+          165.0139923095703,
+          61.708740234375
+        ],
+        [
+          92.54296875,
+          61.708740234375
+        ]
+      ]
+    },
+    {
+      "title": "(Main.java)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          92.54296875,
+          70.3037109375
+        ],
+        [
+          164.40101623535156,
+          68.6591796875
+        ],
+        [
+          164.40101623535156,
+          81.708740234375
+        ],
+        [
+          91.37890625,
+          82.6376953125
+        ]
+      ]
+    },
+    {
+      "title": "Penjelasan:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          92.251953125,
+          300.126953125
+        ],
+        [
+          165.0159912109375,
+          300.126953125
+        ],
+        [
+          165.0159912109375,
+          312.5587158203125
+        ],
+        [
+          92.251953125,
+          312.5587158203125
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Hasil Running Program",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          73.91796875,
+          30.423828125
+        ],
+        [
+          235.14102172851562,
+          28.779296875
+        ],
+        [
+          235.14102172851562,
+          41.84259033203125
+        ],
+        [
+          73.91796875,
+          41.935546875
+        ]
+      ]
+    },
+    {
+      "title": "\u25aa Link Program Praktikum (Github)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          77.9921875,
+          710.0587158203125
+        ],
+        [
+          299.4729919433594,
+          709.615234375
+        ],
+        [
+          299.4729919433594,
+          721.2225723266602
+        ],
+        [
+          76.828125,
+          721.2225723266602
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          133
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          378
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          375
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          161
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          27
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\103112400061_Keishin Naufa A_Modul 3"
+}
