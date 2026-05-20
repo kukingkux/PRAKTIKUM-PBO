@@ -1,0 +1,1476 @@
+                                 Modul 11 Web Frontend
+
+  Tujuan Praktikum
+    1.   Mahasiswa mampu memahami konsep dan implementasi pada web.
+    2.   Mahasiswa mampu memahami sintaks dan elemen-elemen HTML.
+    3.   Mahasiswa mampu memahami konsep dan implementasi CSS pada web.
+    4.   Mahasiswa mampu mengenali jenis-jenis dan penggunaan CSS.
+    5.   Mengenal komponen-komponen dasar dalam pembuatan server pages dalam Java.
+
+ 11.1 HTML
+ 11.1.1 Pengenalan HTML
+ HTML atau HyperText Markup Language merupakan bahasa dasar yang digunakan untuk
+ membangun sebuah web dimana HTML menangani elemen-elemen dasar pada pembangunan
+ sebuah website. Struktur HTML paling dasar adalah sebagai berikut:
+
+
+
+
+                                 Gambar 11-1 Struktur dasar HTML
+
+
+ 11.1.1.1 Tag HTML
+ Tag dalam HTML secara normal memiliki sepasang tag di mana tag pertama merupakan tag
+ pembuka dan yang kedua merupakan tag penutup. Konten yang ingin ditampilkan pada laman web
+ diletakkan di antara kedua tag tersebut.
+
+
+                        <nama_tag> letakkan konten di sini … </nama_tag>
+
+
+ Tag dalam HTML tidak semuanya berbentuk pasangan, ada beberapa tag yang hanya berdiri
+ sendiri seperti tag “<br/>” yang berguna untuk berpindah baris.
+
+
+ 11.1.1.2 Elemen HTML
+ Elemen HTML merupakan tag HTML yang telah memiliki konten atau isi di antara kedua tag
+ pembuka dan penutupnya. Elemen HTML dapat berupa teks atau juga dapat menyisipkan tag HTML
+ lain pada elemen tersebut.
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                            61
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+      <!-- Contoh elemen berisi tag lain -->
+      <title>Page Title</title>
+    </head> asdff
+
+    <body>
+      <h1>My First Heading</h1>
+      <!-- Contoh Elemen berisi Teks -->
+      <p>My first paragraph.</p>
+    </body>
+
+    </html>
+
+
+ 11.1.1.3 Atribut HTML
+ Atribut HTML merupakan tambahan informasi dari sebuah tag HTML. Bentuk atribut untuk setiap
+ tag HTML berbeda-beda sehingga kegunaan atribut juga berbeda seperti menambahkan informasi
+ warna elemen, ukuran lebar, ukuran panjang dan lain-lain. Namun, mayoritas atribut yang sering
+ muncul untuk setiap tag HTML adalah atribut “id” dan “class” karena kedua atribut ini berperan
+ besar dalam pengembangan laman web dengan CSS dan JavaScript. Atribut HTML dideklarasikan di
+ dalam tag pembuka pada setiap elemen HTML dengan format nama_atribut=”value”, setiap nilai
+ atribut diapit oleh petik dua.
+
+  <a href=”www.google.co.id” > Google.co.id </a>
+  <input type=”button” id=”btnSubmit” class=”btnSubmit1” value=”Kirim”/>
+
+
+
+ 11.1.2 Dasar Sintaks HTML
+   <!DOCTYPE html>
+   <html>
+
+   <head>
+     <title>Page Title</title>
+   </head>
+
+   <body>
+     <h1>My First Heading</h1>
+     <p>My first paragraph.</p>
+   </body>
+
+   </html>
+
+ Seperti yang sudah dijelaskan sebelumnya struktur dasar HTML antara lain berupa:
+   •   Deklarasi <! DOCTYPE html> mendefinisikan dokumen menjadi HTML5
+   •   Elemen <html> adalah elemen dasar dari halaman HTML
+   •   Elemen <head> berisi informasi meta tentang dokumen
+   •   Elemen <title> menentukan judul untuk dokumen
+   •   Elemen <body> berisi konten halaman yang terlihat
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                62
+ 11.1.3 Heading
+ Heading pada HTML merupakan tag yang berguna untuk menampilkan judul dari konten laman
+ web yang dibangun. Heading dalam sebuah laman web berperan penting untuk aplikasi mesin
+ pencarian karena sistem mesin pencarian bekerja dengan menggunakan Heading laman web kita
+ sebagai index pencarian. Dalam HTML terdapat enam tingkatan Heading di mana semakin kecil
+ nilai heading nya maka semakin penting dan semakin besar ukurannya pada laman web.
+
+
+   <h1>Heading 1</h1>
+   <h2>Heading 2</h2>
+   <h3>Heading 3</h3>
+   <h4>Heading 4</h4>
+   <h5>Heading 5</h5>
+   <h6>Heading 6</h6>
+
+
+
+
+                                 Gambar 11-2 Tingkatan heading
+
+ 11.1.4 Hyperlink
+ Hyperlink dalam HTML memungkinkan halaman web berpindah laman atau bernavigasi menuju
+ laman web yang lain. Tag yang digunakan adalah tag <a>…</a>
+
+
+    <a href="www.google.co.id"> Visit Google </a>
+
+    Output :
+    Visit Google
+
+          Jika panah kursor kita arahkan pada teks tersebut, kursor akan berubah menjadi bentuk
+                                                                                        tangan.
+
+
+ Dalam tag Hyperlink pada HTML ada satu atribut yang harus digunakan agar konten yang ada di
+ antara tag hyperlink berjalan dan dapat melakukan navigasi menuju laman web lain yaitu atribut
+ href. Atribut ini bernilai url atau alamat dari laman web tujuan.
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                    63
+ 11.1.5 Tabel
+ Tabel pada HTML merupakan salah satu elemen penting khususnya digunakan untuk menampilkan
+ data yang membutuhkan bentuk tabel. Tabel pada HTML didefinisikan dengan tag <table></table>
+ dengan setiap pendefinisian baris menggunakan tag <tr></tr>, pendefinisian heading tabel
+ menggunakan tag <th></th> dan pendefinisian kolom menggunakan tag <td></td>.
+
+
+   <table width=”80%” height=”50%” border="1">
+     <tr>
+       <th>Nama Lengkap</th>
+       <th>Kota Kelahiran</th>
+       <th>Age</th>
+     </tr>
+     <tr>
+       <td>Budi</td>
+       <td>Jakarta</td>
+       <td>35</td>
+     </tr>
+     <tr>
+       <td>Andi</td>
+       <td>Semarang</td>
+       <td>52</td>
+     </tr>
+     <tr>
+       <td>Rasyid</td>
+       <td>Surabaya</td>
+       <td>22</td>
+     </tr>
+   </table>
+
+
+
+
+                                 Gambar 11-3 Tabel pada HTML
+
+
+ Dalam tabel HTML kita dapat melakukan operasi Merge Cell yang biasanya dapat dilakukan pada
+ aplikasi perkantoran seperti Microsoft Word atau Excel dengan cara menambahkan atribut colspan
+ dan rowspan pada tag pembuka kolom yaitu <td> nilai dari atribut tersebut berupa jumlah kolom
+ atau baris yang akan djgabungkan.
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                64
+     <table width=”80%” height=”50%” border="1">
+       <tr>
+         <th rowspan="2">Nama Lengkap</th>
+         <th colspan="2">Gelar Pendidikan</th>
+         <th rowspan="2">Age</th>
+       </tr>
+       <tr>
+         <th> Sarjana </th>
+         <th> Magister </th>
+       </tr>
+       <tr>
+         <td>Budi</td>
+         <td>S.Kom</td>
+         <td>M.Sc</td>
+         <td>35</td>
+       </tr>
+       <tr>
+         <td>Andi</td>
+         <td>S.SiKom</td>
+         <td>M.T</td>
+         <td>52</td>
+       </tr>
+     </table>
+
+
+
+
+                 Gambar 11-4 Penggunaan colspan dab rowspan pada table HTML
+
+ 11.1.6 Image
+ Menampilkan gambar pada halaman web merupakan sebuah improvisasi dalam pembuatan desain
+ sebuah web yang dapat memperindah tampilan website. Tag HTML yang digunakan adalah <img/>
+ tag ini tidak memiliki pasangan penutup maka dari itu diakhir tag pembuka ditambahkan garis
+ miring seperti di atas. Terdapat satu atribut wajib yang harus ditambahkan seperti atribut href pada
+ tag Hyperlink yaitu atribut src yang bernilai alamat direktori gambar disimpan.
+
+   <img src="wp (35).jpg" width="50%" height="50%"/>
+   <p>Ini Gambar Kincir Angin</p>
+
+
+
+
+                            Gambar 11-5 Penggunaan image pada HTML
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                      65
+ 11.1.7 Audio / Video Elemen
+ Sebelum berkembangnya teknologi HTML5, untuk menyisipkan audio atau video, diperlukan
+ sebuah plugin seperti Flash Player namun sekarang dengan HTML5 memiliki tag yang dapat
+ menyisipkan audio atau video ke dalam laman web. Untuk audio menggunakan tag <audio> untuk
+ tag pembuka dan <source> untuk memanggil url atau alamat direktori file. Sedangkan untuk video
+ menggunakan tag <video>.
+
+
+    <audio controls>
+      <source src="horse.ogg" type="audio/ogg">
+      <source src="horse.mp3" type="audio/mpeg"> Your browser does not support the
+    audio element.
+    </audio>
+
+    <video width="400" controls>
+      <source src="mov_bbb.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg"> Your browser does not support
+    HTML5 video.
+    </video>
+
+    <p>
+      Video courtesy of
+      <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+    </p>
+
+
+
+
+                      Gambar 11-6 Penggunaan audio dan video pada HTML
+
+ 11.1.8 Form
+ Form pada HTML digunakan sebagai wadah untuk menampung dan mengumpulkan data-data dari
+ pengguna jika diperlukan untuk disimpan dalam sebuah database. Tag dasar untuk pemanggilan
+ form adalah <form> … </form> dan diantara tag form tersebut merupakan tempat mendefinisikan
+ elemenelemen yang dibutuhkan form yang akan dibuat nantinya. Atribut utama dari tag form yaitu
+ action, atribut ini bernilai tujuan data akan diolah dengan bahasa pemrograman web saat tombol
+ “Submit” ditekan, selain itu atribut method yang hanya bernilai POST atau GET ini juga sangat
+ dibutuhkan untuk pengolahan data dengan bahasa pemrograman web. Pembahasan lebih lanjut
+ ada pada modul PHP.
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                66
+ 11.1.8.1 Elemen Form
+ Elemen-elemen form pada html adalah sebagai berikut:
+
+               Tag                         Type                          Fungsionalitas
+
+   <input/>                      type = ‘’text”            Menampilkan elemen untuk input
+                                                           data teks
+
+                                 type = ‘’password”        Menampilkan elemen untuk input
+                                                           data password
+
+                                 type = ‘’email”           Menampilkan elemen untuk input
+                                                           data email
+
+                                 type = ‘’radio”           Menampilkan elemen untuk
+                                                           pemilihan data berbentuk radio
+
+                                 type = ‘’checkbox”        Menampilkan elemen untuk
+                                                           pemilihan data berbentu checkbox
+
+                                 type = ‘’submit”          Menampilkan elemen tombol untuk
+                                                           pengolahan data form
+
+   <select>                      -
+
+        <option> … </option>                               Menampilkan elemen untuk
+                                                           pemilihan data berbentuk dropdown
+   </select>
+                                                           list
+
+   <textarea> … </textarea>      -                         Menampilkan elemen untuk input
+                                                           data dalam bentuk paragraf panjang.
+
+   <button> … </button>          type = ‘’button”
+
+
+
+ 11.1.8.2 Atribut Elemen Form
+ Atribut-atribut elemen form yang sering digunakan antara lain sebagai berikut:
+                                      Tabel 11-1 Atribut elemen form
+
+           Atribut                    Value                            Fungsionalitas
+
+   id                         Bebas                   Menambahkan informasi ID dari elemen
+                                                      untuk kebutuhan CSS, JavaScript atau
+                                                      Bahasa Pemrograman Web yang lain.
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                   67
+   name                     Bebas          Menambahkan informasi Name dari
+                                           elemen untuk kebutuhan JavaScript atau
+                                           Bahasa Pemrograman Web yang lain.
+
+   class                    Bebas          Menambahkan informasi Class dari
+                                           elemen untuk kebutuhan CSS, JavaScript
+                                           atau Bahasa Pemrograman Web yang
+                                           lain.
+
+   placeholder              Bebas          Menampilkan informasi sementara
+                                           tentang elemen sebelum memberikan
+                                           inputan pada elemen.
+
+   value                    Bebas          Memberikan nilai default pada elemen
+                                           khususnya elemen type dan option
+
+   disabled                 -              Membuat elemen menjadi tidak dapat
+                                           dioperasikan
+
+   readonly                 -              Membuat elemen type tidak dapat
+                                           dirubah atau diberi inputan
+
+   checked                  -              Membuat elemen checkbox atau radio
+                                           button menjadi terpilih secara default.
+
+   selected                 -              Membuat elemen option pada tag select
+                                           menjadi terpilih secara default.
+
+
+  <!DOCTYPE html>
+  <html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Praktikan</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Formulir Pendaftaran Praktikan</h1>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="nama_id">Nama:</label>
+        <input type="text" name="nama_input" id="nama_id" placeholder="Input Nama"
+  value="Praktikan" readonly>
+      </div>
+      <div class="form-group">
+        <label for="uname_id">Username:</label>
+        <input type="text" name="uname_input" id="uname_id" placeholder="Input
+  Username" value="Praktikum" disabled>
+      </div>
+      <div class="form-group">
+        <label for="password_id">Password:</label>
+        <input type="password" name="password_input" id="password_id"
+  placeholder="Input Password">
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                       68
+      </div>
+      <div class="form-group">
+        <label for="email_id">Email:</label>
+        <input type="email" name="email_input" id="email_id" placeholder="Input
+  Email">
+      </div>
+      <fieldset>
+        <legend>Jenis Kelamin</legend>
+        <div>
+          <input type="radio" name="jk_input" id="pria" value="Pria">
+          <label for="pria">Pria</label>
+        </div>
+        <div>
+          <input type="radio" name="jk_input" id="wanita" value="Wanita">
+          <label for="wanita">Wanita</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Hobi</legend>
+        <div>
+          <input type="checkbox" name="hobi_input" id="renang" value="Renang">
+          <label for="renang">Renang</label>
+        </div>
+        <div>
+          <input type="checkbox" name="hobi_input" id="bersepeda"
+  value="Bersepeda">
+          <label for="bersepeda">Bersepeda</label>
+        </div>
+        <div>
+          <input type="checkbox" name="hobi_input" id="memancing"
+  value="Memancing">
+          <label for="memancing">Memancing</label>
+        </div>
+      </fieldset>
+      <div class="form-group">
+        <label for="jp_id">Jenjang Pendidikan:</label>
+        <select name="jp_input" id="jp_id">
+          <option value="" selected>------Pilih------</option>
+          <option value="D3">Tamat D3</option>
+          <option value="S1">Tamat S1</option>
+          <option value="S2">Tamat S2</option>
+          <option value="S3">Tamat S3</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="kritik_saran">Kritik & Saran:</label>
+        <textarea id="kritik_saran" name="kritik_saran" rows="5"></textarea>
+      </div>
+      <div class="form-actions">
+        <button type="button" class="btn-cancel">Cancel</button>
+        <button type="submit" class="btn-submit">Submit</button>
+      </div>
+    </form>
+  </body>
+  </html>
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                    69
+                               Gambar 11-7 Contoh form pendaftaran
+
+ 11.2 CSS
+ 11.2.1 Pengenalan CSS
+ Cascading Style Sheets (CSS) merupakan bahasa yang membantu memperindah tampilan dari
+ laman web yang telah dibangun dengan HTML. CSS mendeskripsikan bagaimana bentuk tampilan
+ elemen HTML seharusnya saat ditampilkan pada laman browser. Format penulisan CSS secara
+ umum ditunjukkan pada gambar berikut.
+
+
+
+
+                                    Gambar 11-8 Penulisan CSS
+ Selector merupakan elemen HTML yang akan ditambahkan CSS kemudian diikuti dengan
+ declaration block yang terdiri dari property elemen yang akan dirubah beserta value dari property-
+ nya. Setiap deklarasi selector dapat merubah banyak nilai property sekaligus dengan dipisahkan
+ dengan titik koma dan untuk semua declaration block dari satu selector berada di antara kurung
+ kurawal.
+ 11.2.1.1 Cara Menyisipkan CSS
+ Terdapat tiga cara untuk menyisipkan atau mendefinisikan CSS ke dalam HTML, antara lain:
+     a) External Style Sheet
+         Eksternal Style Sheet merupakan cara menyisipkan atau mendefinisikan CSS ke dalam HTML
+         dengan memanggil file dengan ekstensi .css ke dalam file HTML. Pemanggilannya diletakkan
+         di antara elemen <head></head> dengan menggunakan tag <link/>.
+
+     <head>
+        <link rel="stylesheet" type="text/css" href="myStyleSheet.css">
+     </head>
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                    70
+     b) Internal Style sheet
+        Internal Style Sheet merupakan cara menyisipkan atau mendefinisikan CSS ke dalam HTML
+        dengan menggunakan tag <style> </style> pada elemen <head></head>. Biasanya
+        digunakan ketika satu laman membutuhkan style CSS yang berbeda dari yang telah
+        dipanggil pada Eksternal Style Sheet.
+       <head>
+         <style>
+           body {
+             background-color: blue;
+           }
+
+           h1 {
+             color: maroon;
+             margin-left: 40px;
+           }
+         </style>
+       </head>
+
+
+     c) Inline Style
+        Inline Style menyisipkan atau mendefinisikan CSS ke dalam HTML dengan menambahkan
+        atribut style pada elemen yang ingin ditambahkan CSS. Biasanya digunakan hanya untuk
+        satu elemen yang membutuhkan style CSS yang berbeda dari yang telah didefinisikan pada
+        Internal Style atau Eksternal Style.
+     <h1 style="color:lightblue; font-size:30px;">Praktikum Web
+     Programming</h1>
+
+
+ 11.2.1.2 Selector
+ Selector pada CSS digunakan untuk menemukan elemen HTML untuk diberi CSS berdasarkan
+ selector yang didefinisikan. Bentuk selector ada beberapa antara lain nama elemen HTML, atribut
+ ID dan atribut Class.
+
+
+        /*Selector dengan Elemen
+        HTML*/
+        p {
+          text-align: center;
+          color: red;
+        }
+
+        /*Selector dengan Id Elemen
+        HTML*/
+        #para1 {
+          text-align: center;
+          color: red;
+        }
+
+        /*Selector dengan Class Elemen
+        HTML*/
+        p.center {
+          text-align: center;
+          color: red;
+        }
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                 71
+ 11.2.2 Font Propertis
+ Sebuah laman web tentunya tidak lepas oleh penggunaan teks, oleh karena itu memiliki tampilan
+ teks yang tepat sangat diperlukan agar sebuah web memiliki tampilan yang baik dan menarik. CSS
+ dapat menangani kebutuhan tampilan teks dengan font properties.
+
+
+                     Font Properties                           Keterangan
+              Font-family                     Menentukan jenis font yang digunakan
+              Font-size                       Mengatur ukuran font
+              Font-style                      Mengatur style font (normal, italic, oblique)
+              Font-weight                     Mengatur style font (normal atau bold)
+
+
+ Contoh penerapannya sebagai berikut:
+ p.example {
+   font-family: Arial;
+   font-size: 20px;
+   color: ligh;
+   dddddfont-style: italic;
+   font-weight: bold;
+ }
+
+
+
+
+                             Gambar 11-9 Penerapan font properties
+
+ 11.2.3 List Properties
+ Dalam HTML terdapat elemen yang berguna membuat sebuah list menggunakan simbol dan
+ karakter. Tag yang digunakan adalah tag <ul></ul> atau <ol></ol>. Tag <ul> digunakan ketika akan
+ menggunakan list dengan penanda berupa simbol atau bisa dikatakan unordered list, sedangkan
+ tag <ol> digunakan ketika akan menggunakan list dengan penanda karakter yang memiliki urutan
+ atau bisa dikatakan ordered list. Namun di dalam tag tersebut juga harus didefinisikan tag
+ pendukung yaitu <li></li> untuk mendefinisikan elemen-elemen list yang akan ditampilkan. Untuk
+ setiap tag ordered list atau unordered list memiliki satu atribut untuk mendefinisikan tipe simbol
+ atau karakter yang akan digunakan yaitu atribut type. Contoh penerapan dan tipe masing-masing
+ tag sebagai berikut:
+
+  <h3>List of Property</h3>
+  <ol type="1">
+    <li>Indoor
+      <ul type="circle">
+        <li>Sofa</li>
+      </ul>
+      <ul type="disc">
+        <li>Tanaman Hias</li>
+      </ul>
+      <ul type="square">
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                    72
+        <li>Lampu Baca</li>
+      </ul>
+      <ul type="none">
+        <li>Rak Buku</li>
+      </ul>
+    </li>
+    <li>Outdoor
+      <ol type="A">
+        <li>Payung Pantai</li>
+      </ol>
+      <ol type="a">
+        <li>Ayunan</li>
+      </ol>
+      <ol type="I">
+        <li>Kursi Taman</li>
+      </ol>
+      <ol type="i">
+        <li>Lampu Taman</li>
+      </ol>
+    </li>
+  </ol>
+
+
+
+
+                            Gambar 11-10 Tampilan penggunaan list properties
+ Dengan ditambahkan CSS pada elemen list, maka list yang ditampilkan dapat lebih menarik, berikut
+ CSS properties untuk elemen list.
+
+
+            Lists Specified Properties                         Keterangan
+          List-style-image                  Membuat sebuah gambar menjadi penanda list
+
+          List-style-position               Mengatur posisi penanda list di dalam konten atau
+                                            di luar konten
+          List-style-type                   Mengatur jenis penanda list
+
+
+
+            Lists General Properties                           Keterangan
+
+          Background-color                  Mengatur warna latar belakang elemen list
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                  73
+           Padding                       Mengatur ruang jarak elemen konten dengan
+                                         pembatas pada bagian dalam
+           Margin                        Mengatur ruang jarak elemen konten dengan
+                                         pembatas pada bagian luar
+
+
+ Contoh penerapannya sebagai berikut:
+
+
+
+
+                         Gambar 11-11 List properties dengan tambahan CSS
+   Ul.firstList {
+
+       background-color: tomato;
+
+       margin: 10px 5px 10px 5px;
+
+       list-style-type: lower-alpha;
+
+       list-style-position: inside;
+
+   }
+
+   ol.secondList {
+
+       background-color: lightblue;
+
+       list-style-type: lower-roman;
+
+       padding: 5px 5px 15px 15px;
+
+       list-style-position: inside;
+
+   }
+
+
+
+
+ 11.2.4 Alignment of Text
+ Pengaturan alignment pada sebuah teks juga dapat ditangani oleh CSS dengan properties sebagai
+ berikut:
+
+                     Properties       Value                      Keterangan
+
+               Text-align          Center       Membuat teks menjadi rata tengah
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                               74
+                                    Left           Membuat teks menjadi rata kiri
+
+                                    Right          Membuat teks menjadi rata kanan
+
+                                    Justify        Membuat paragraf menjadi rata kanan dan kiri
+
+
+ Contoh penerapannya pada gambar 11-12:
+
+
+
+
+                              Gambar 11-12 Penerapan alignment of text
+   h1 {
+          text-align: center;
+   }
+   h2 {
+          text-align: left;
+   }
+   h3 {
+          text-align: right;
+   }
+
+ 11.2.5 Colors
+ Jika berbicara desain antar muka web, permasalahan tentang warna merupakan salah satu hal yang
+ penting. Pada dasarnya Tag HTML dapat menangani pengaturan warna latar belakang atau teks
+ menggunakan atribut dari HTML sendiri, namun CSS dapat menangani lebih baik dengan
+ menawarkan pengaturan yang lebih lengkap.
+
+              Properties              Keterangan             Value    Color Names (Red, Green,
+                                                                      Orange dll.)
+
+           Background-color    Mengatur warna latar                   RGB Value (R, G, B)
+                               belakang elemen HTML
+                                                                      Hex Value (#FFFF00)
+                                                                      HSL Value (Hue, Saturation,
+                                                                      Light)
+           Color               Mengatur warna teks elemen             RGBA (dengan Opacity)
+                               HTML                                   HSLA (dengan Opacity)
+
+
+ Contoh penerapannya sebagai berikut :
+   body{
+      background-color: HSL(20%, 40%, 70%);
+      color: orange;
+   }
+
+   #teks{
+      color: #2F3CDF;
+   }
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                      75
+   /*dengan opacity sebesar 0.5*/
+   input.text-field{
+      background-color: RGBA(32, 55, 122, 0.5);
+   }
+
+
+ 11.2.6 Span & Div
+ Span merupakan elemen HTML yang dapat menangani perubahan konten elemen pada satu baris.
+ Tag yang digunakan adalah <span></span>. Sedangkan Div merupakan elemen HTML yang
+ digunakan untuk membuat section untuk beberapa elemen HTML di dalamnya. Tag yang digunakan
+ yaitu <div></div>.
+
+
+        <div class=”section1”>
+          <p> Content of <span class=”mark”> Property </span> </p>
+        </div>
+
+        /*CSS Properties*/
+        .section1 {
+          background-color: lightgrey;
+          padding: 10px 5px 10px 5px;
+        }
+        .mark {
+          background-color: tomato;
+          font-style: italic;
+          font-weight: bold;
+          padding: 10px 10px 10px 10px;
+        }
+
+
+
+
+                                 Gambar 11-13 Penerapan Span & Div
+
+ 11.3 Bootstrap
+ Bootstrap merupakan sebuah front-end framework gratis untuk pengembangan antar muka web
+ yang lebih cepat dan lebih mudah. Dikembangkan oleh Mark Otto dan Jacom Thornton di Twitter
+ dan dirilis sebagai produk open source pada Agustus 2011 di GitHub. Bootstrap mencakup template
+ desain berbasis HTML dan CSS untuk tipografi, form, button, navigasi, modal, image carousells dan
+ masih banyak lagi, serta terdapat opsional plugin JavaScript. Selain itu, Bootstrap memiliki
+ kemampuan untuk membuat desain responsif yang secara otomatis menyesuaikan diri agar
+ terlihat baik di segala perangkat, mulai dari perangkat ponsel hingga desktop pc.
+ 11.3.1 Pemasangan Bootstrap
+ Bootstrap merupakan produk yang mengusung konsep open source sehingga untuk
+ pemasangannya dapat dilakukan dengan beberapa cara sebagai berikut:
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                   76
+ 1.   Unduh di http://getbootstrap.com, selanjutnya pasang pada project web kalian seperti
+      memanggil External Style Sheet pada CSS.
+ 2.   Memanggil Bootstrap CDN (Content Delivery Network), sehingga kita tidak perlu mengunduh
+      dan memasangnya pada laman website, hanya memanggil source dari Bootstrap. Cara ini
+      membutuhkan koneksi internet untuk menghasilkan perubahan tampilan CSS.
+ <!-- Pemanggilan Bootstrap dengan CDN -->
+
+ <!-- CSS -->
+ <link
+ href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+ rel="stylesheet" integrity="sha384-
+ 9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+ crossorigin="anonymous">
+
+ <!-- jQuery library -->
+ <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-
+ 2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+ <!-- JavaScript -->
+ <script
+ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
+ " integrity="sha384-
+ geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+ crossorigin="anonymous"></script>
+
+
+
+ 11.3.2 Bootstrap Container
+ Bootstrap container adalah elemen paling dasar yang dibutuhkan dalam layouting menggunakan
+ Bootstrap Grid. Container berbentuk class CSS yang sisipkan pada elemen HTML <div>. Pada gambar
+ 3-7 terdapat dua class container pada Bootstrap yang dapat dipilih yaitu:
+ 1. Class .container menyediakan container yang responsive dengan lebar yang tetap.
+ 2. Class .container-fluid menyediakan container dengan lebar yang penuh mencakup seluruh area
+    pandang.
+
+
+
+
+                                  Gambar 11-14 Class container
+
+ 11.3.3 Bootstrap Grid
+ Sistem grid pada Bootstrap menggunakan rangkaian container, rows dan column untuk tata letak
+ dan keselarasan elemen atau konten. Dibangun dengan flexbox dan sangat responsif terhadap
+ perangkat yang digunakan untuk menampilkan laman web. Struktur dasar grid pada Bootstrap
+ sebagai berikut.
+ <div class="row">
+   <div class="col-*-#"></div>
+   <div class="col-*-#"></div>
+ </div>
+ <div class="row">
+   <div class="col-*-#"></div>
+   <div class="col-*-#"></div>
+   <div class="col-*-#"></div>
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                 77
+ </div>
+ Pertama diawali dengan <div class=”container”>. Kemudian buat sebuah baris sebelum
+ mendeklarasikan sebuah kolom dengan menggunakan <div class=”row”>. Terakhir buat elemen div
+ dengan mendefinisikan class “col-*-#”. Tanda * dan # mewakili jenis dan ukuran column yang akan
+ digunakan, value yang dapat didefinisikan dapat dilihat pada tabel berikut:
+                                        Tabel 11-2 Sistem grid Bootstrap
+                                 Extra Small          Small          Medium        Large       Extra Large
+          Max container        None (auto)        540px              720px      960px        1140px
+          width
+          Class prefix         .col-              .col-sm-           .col-md-   .col-lg-     .col-xl-
+          # per columns        12
+          Nestable             Yes
+          Column               Yes
+          Ordering
+ Contoh penerapannya sebagai berikut:
+ <div class=”container”>
+ <div class="row">
+   <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+   <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+ </div>
+ <div class="row">
+   <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+   <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+   <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+ </div>
+ <div class="row">
+   <div class="col-6">.col-6</div>
+   <div class="col-6">.col-6</div>
+ </div>
+ </div>
+
+
+
+
+                              Gambar 11-15 Hasil penerapan Bootstrap grid
+
+ 11.3.4 Text Style
+ Bootstrap menyediakan banyak class untuk mengatur style sebuah teks elemen HTML. Beberapa
+ contohnya antara lain :
+                                             Tabel 11-3 Text style
+                             Class                                            Keterangan
+                                                              Mengatur teks menjadi rata kiri dalam sebuah
+                           .text-left
+                                                                                elemen.
+                                                             Mengatur teks menjadi rata tengah dalam sebuah
+                          .text-center
+                                                                                elemen.
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                                78
+                                                             Mengatur teks menjadi rata kanan dalam sebuah
+                             .text-right
+                                                                                 elemen.
+                                                            Mengatur seluruh teks pada elemen menjadi huruf
+                           .text-lowercase
+                                                                                   kecil
+                                                            Mengatur seluruh teks pada elemen menjadi huruf
+                          .text-uppercase
+                                                                                  besar
+                                                            Menjadikan huruf pertama besar untuk setiap kata
+                           .text-capitalize
+                                                                           pad sebuah elemen.
+                          .font-weight-bold                     Mengatur ketebalan huruf menjadi bold
+                          .font-weight-light                    Mengatur ketebalah huruf menjadi light
+                        .font-weight-normal                    Mengatur ketebalan huruf menjadi normal
+                              .font-italic                         Mengatur gaya teks menjadi miring
+                                                           Mengatur seluruh teks pada sebuah elemen sehingga
+                             .h1 s.d .h6                    memiliki tampilan selayaknya tag elemen H1 s.d H6
+                                                                               pada HTML.
+
+
+ 11.3.5 Table, Image, & Button
+ Bootstrap menyediakan class untuk pengaturan style elemen tabel, gambar dan tombol menjadi
+ lebih menarik.
+ 1. Bootstrap Table
+    Tabel pada Bootstrap dipanggil dengan class .table secara default, namun ada beberapa class
+    tambahan yang dapat didefinisikan pada elemen tabel yang lain berikut dapat dilihat pada Tabel
+    berikut:
+
+                                              Tabel 11-4 Elemen tabel
+                         Class                                          Keterangan
+          .table-dark                          Membuat tampilan tabel memiliki latar belakang gelap
+                                               Membuat elemen <thead> pada tabel memiliki latar belakang
+          .thead-light
+                                               cerah
+                                               Membuat elemen <thead> pada tabel memiliki latar belakang
+          .thead-dark
+                                               gelap
+                                               Membuat tampilan tabel memiliki latar belakang setiap row yang
+          .table-striped
+                                               berbeda
+          .table-bordered                      Membuat tampilan tabel sederhana dengan border tipis
+                                               Membuat tampilan tabel yang akan berubah warna latar
+          .table-hover
+                                               belakang row saat didekati kursor.
+                                               Membuat tampilan tabel sederhana yang dengan ukuran padding
+          .table-sm
+                                               yang minim
+ Contoh penerapannya sebagai berikut:
+ <!--Tabel Hover Style -->
+ <table class="table table-hover">
+   <thead>
+     <tr>
+       <th scope="col">#</th>
+       <th scope="col">Nama Lengkap</th>
+       <th scope="col">Asal Kota</th>
+       <th scope="col">Umur</th>
+     </tr>
+   </thead>
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                              79
+   <tbody>
+     <tr>
+       <th scope="row">1</th>
+       <td>Budi Rojadi</td>
+       <td>Semarang</td>
+       <td>35 th</td>
+     </tr>
+     <tr>
+       <th scope="row">2</th>
+       <td>Yulia Santi</td>
+       <td>Bekasi</td>
+       <td>32</td>
+     </tr>
+     <tr>
+       <th scope="row">3</th>
+       <td>Fahri Abdilah</td>
+       <td>Medan</td>
+       <td>38 th</td>
+     </tr>
+   </tbody>
+ </table>
+
+
+
+
+                          Gambar 11-16 Hasil penerapan Class.table-hover
+
+
+
+
+                          Gambar 11-17 Hasil penerapan Class.thead-dark
+
+
+ 2. Bootstrap Image
+    Bootstrap dapat menangani desain gambar agar responsif pada setiap perangkat yang
+    menampilkan laman web. Dengan menambahkan class .img-fluid pada elemen tag <img> pada
+    HTML maka gambar yang didefinisikan pada laman web akan memiliki ukuran yang responsif
+    menyesuaikan ukuran layar perangkat. Class tersebut mengatur ukuran gambar dengan
+    menyesuaikan ukuran dari parent element sebagai wadah atau container elemen gambar.
+    Terdapat class .thumbnail yang berguna menjadikan gambar menjadi berukuran kecil dan
+    sedikit memiliki border disekitarnya dapat dilihat pada gambar berikut.
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                           80
+                          Gambar 11-18 Image class.thumbnail dan class.fluid
+
+
+ <div class="container">
+   <h2>Thumbnail & Fluid</h2>
+   <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre" >
+   <img src="cinqueterre.jpg" class="img-fluid" alt="Responsive image">
+ </div>
+
+
+ 3. Bootstrap Button
+    Tampilan button pada elemen HTML dapat dirubah dengan menambahkan beberapa class
+    untuk button oleh Bootstrap. Bootstrap membuat tampilan button menjadi lebih menarik dan
+    memberikan user experience yang baik. Class yang digunakan secara default adalah .btn namun
+    dengan disertai class lain seperti berikut untuk memberikan perubahan warna dan ukuran
+    button:
+                                      Tabel 11-5 Class button
+                            Class                                    Keterangan
+                                                     Membuat tampilan button dengan desain
+           .btn-primary
+                                                     utama
+                                                     Membuat tampilan button dengan desain
+           .btn-danger
+                                                     berwarna merah
+                                                     Membuat tampilan button dengan desain
+           .btn-success
+                                                     berwarna hijau
+                                                     Membuat tampilan button dengan desain
+           .btn-warning
+                                                     berwarna kuning
+                                                     Membuat tampilan button dengan desain
+           .btn-info
+                                                     sebuah informasi
+                                                     Membuat tampilan button dengan desain
+           .btn-link
+                                                     sebuah hyperlink
+                                                     Membuat tampilan button berukura extra
+           .btn-xs
+                                                     small
+           .btn-sm                                   Membuat tampilan button berukuran small
+                                                     Membuat tampilan button berukuran
+           .btn-md
+                                                     medium
+           .btn-lg                                   Membuat tampilan button berukuran besar
+                                                     Membuat tampilan button menjadi sebuah
+           .btn-block                                blok besar yang mengisi seluruh ruang pada
+                                                     parent
+
+
+     Contoh penerapan class button:
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                    81
+ <div class="container">
+   <h4>Button Styles</h4>
+   <button type="button" class="btn btn-secondary btn-md">Secondary</button>
+   <button type="button" class="btn btn-primary btn-lg">Primary</button>
+   <button type="button" class="btn btn-success btn-block">Success</button>
+   <button type="button" class="btn btn-info btn-xs">Info</button>
+   <button type="button" class="btn btn-warning">Warning</button>
+   <button type="button" class="btn btn-danger">Danger</button>
+   <button type="button" class="btn btn-link">Link</button>
+ </div>
+
+
+
+
+                            Gambar 11-19 Hasil penerapan class button
+
+ 11.3.6 Bootstrap Form
+ Bootstrap menyediakan perubahan elemen form pada HTML baik pada segi tata letak tampilan atau
+ tampilan antarmuka elemen-elemen dalam form. Class .form-group didefinisikan untuk setiap
+ parent atau container untuk elemen form, sedangkan class .form-control didefinisikan untuk setiap
+ elemen dalam tag <form>. Ada tiga class yang dapat dipilih untuk mengatur tata letak tampilan
+ form yaitu :
+ 1. Vertical Form, ini merupakan tampilan default saat tag form tidak didefinisikan class.
+ 2. Inline Form, ini merupakan tampilan form dengan class .form-inline yang membuat form
+    memiliki tampilan seluruh elemen dalam satu garis.
+ 3. Horizontal Form, ini merupakan tampilan form dengan class .form-inline yang membuat form
+    memiliki tampilan elemen label dengan input type dalam satu baris. Pada tampilan ini butuh
+    pendefinisian class .control-label untuk setiap elemen <label> Contoh :
+ <div class="container">
+   <h3>Horizontal form</h3>
+   <form class="form-horizontal" action="/action_page.php">
+     <div class="form-group">
+       <label class="control-label col-sm-2" for="email">Username:</label>
+       <div class="col-sm-10">
+         <input type="text" class="form-control" id="uname" placeholder="Enter
+ username" name="uname">
+       </div>
+     </div>
+     <div class="form-group">
+       <label class="control-label col-sm-2" for="pwd">Password:</label>
+       <div class="col-sm-10">
+         <input type="password" class="form-control" id="pwd" placeholder="Enter
+ password" name="pwd">
+       </div>
+     </div>
+     <div class="form-group">
+       <div class="col-sm-offset-2 col-sm-10">
+         <button type="submit" class="btn btn-success">Submit</button>
+       </div>
+     </div>
+   </form>
+ </div>
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                   82
+                               Gambar 11-20 Contoh Bootstrap Form
+
+
+
+ 11.4 Javascript
+ 11.4.1 Pengenalan Javascript
+ 11.4.1.1 Sejarah Singkat Javascript
+ Javascript, seperti namanya, merupakan bahasa pemrograman scripting. Dan seperti bahasa
+ scripting lainnya, Javascript umumnya digunakan hanya untuk program yang tidak terlalu besar,
+ biasanya hanya beberapa ratus baris. Javascript pada umumnya mengontrol program yang berbasis
+ Java. Jadi memang pada dasarnya Javascript tidak dirancang untuk digunakan dalam aplikasi skala
+ besar.
+ Meskipun dibuat dengan tujuan awal untuk mengendalikan program Java, komunitas Javascript
+ menggunakan bahasa ini untuk tujuan lain, memanipulasi gambar dan isi dari dokumen HTML.
+ Singkatnya, pada akhirnya Javascript digunakan untuk satu tujuan utama, “menghidupkan”
+ dokumen HTML dengan mengubah konten statis menjadi dinamis dan interaktif. Bersamaan
+ dengan perkembangan Internet dan dunia web yang pesat, Javascript akhirnya menjadi bahasa
+ utama dan satu-satunya untuk membuat HTML menjadi interaktif di dalam browser.
+ 11.4.1.2 Prinsip Dasar Javascript
+ Prinsip dasar yang terdapat pada bahasa pemrograman javascript adalah sebagai berikut.
+
+  1. Javascript mendukung paradigma pemrograman imparatif (Javascript dapat menjalankan
+      perintah program baris demi baris, dengan masing-masing baris berisi satu atau lebih
+      perintah), fungsional (struktur dan elemen-elemen dalam program sebagai fungsi matematis
+      yang tidak memiliki keadaan (state) dan data yang dapat berubah (mutable data)), dan
+      orientasi objek (segala sesuatu yang terlibat dalam program dapat disebut sebagai “objek”).
+  2. Javascript memiliki model pemrograman fungsional yang sangat ekspresif.
+  3. Pemrograman berorientasi objek (PBO) pada Javascript memiliki perbedaan dari PBO pada
+      umumnya.
+ Program kompleks pada Javascript umumnya dipandang sebagai program-program kecil yang saling
+ berinteraksi.
+ 11.4.2 Sintaks Umum pada Javascript
+ 11.4.2.1 Tipe data dasar
+ Seperti kebanyakan bahasa pemrograman lainnya, Javascript memiliki beberapa tipe data untuk
+ dimanipulasi. Seluruh nilai yang ada dalam Javascript selalu memiliki tipe data. Tipe data yang
+ dimiliki oleh Javascript adalah sebagai berikut:
+    •    Number (bilangan)
+    •    String (serangkaian karakter)
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                  83
+    •    Boolean (benar / salah)
+    •    Object
+    •    Function (fungsi)
+    •    Array
+    •    Date
+    •    RegExp (regular expression)
+    •    Null (tidak berlaku / kosong)
+    •    Undefined (tidak didefinisikan)
+ Kebanyakan dari tipe data yang disebutkan di atas sama seperti tipe data sejenis pada bahasa
+ pemrograman lainnya. Misalnya, sebuah boolean terdiri dari dua nilai saja, yaitu true dan false.
+ 11.4.2.2 Variabel
+ Seperti pada bahasa pemrograman lainnya, variabel dalam Javascript merupakan sebuah tempat
+ untuk menyimpan data sementara. Variabel dibuat dengan kata kunci var pada Javascript.
+         var a;             // a berisi undefined
+         var nama = "Budi"; // nama berisi "Budi"
+
+ Nilai yang ada di dalam variabel dapat diganti dengan mengisikan nilai baru, dan bahkan dapat
+ diganti tipe datanya juga.
+         nama = "Anton"; // nama sekarang berisi string "Anton"
+         nama = 1;       // nama sekarang berisi integer 1
+
+ Walaupun kemampuan untuk menggantikan tipe data ini sangat memudahkan kita dalam
+ mengembangkan aplikasi, fitur ini harus digunakan dengan sangat hati-hati. Perubahan tipe data
+ yang tidak diperkirakan dengan baik dapat menyebabkan berbagai kesalahan (error) pada program,
+ misalnya jika kita mencoba mengakses method charAt() (fungsi yang mengembalikan nilai char
+ pada indeks sebuah string) setelah mengubah tipe pada contoh di atas.
+ 11.4.2.3 Array
+ Array merupakan sebuah tipe data yang digunakan untuk menampung banyak tipe data lainnya.
+ Berbeda dengan tipe data object, array pada Javascript merupakan sebuah tipe khusus. Walaupun
+ memiliki method dan properti, array bukanlah objek, melainkan sebuah tipe yang “mirip objek”.
+ Pembuatan array dalam Javascript dilakukan dengan menggunakan kurung siku ([]):
+         var data = ["satu", 2, true];
+
+ Elemen array pada Javascript tidak harus memiliki tipe data yang sama seperti contoh diatas. Selain
+ itu Javascript juga mendukung untuk membuat array di dalam array yang biasa dikenal dengan
+ array dua dimensi seperti contoh dibawah ini.
+         var arr2 = [["satu", "dua"], ["tiga", "empat"]];
+
+ Pengaksesan elemen dalam array dilakukan dengan menggunakan kurung siku. Nilai yang kita
+ berikan dalam kurung siku adalah urutan elemen penulisan array (indeks), yang dimulai dari nilai 0.
+ Jika indeks yang diakses tidak ada, maka kita akan mendapatkan nilai undefined.
+         data[2];       // mengembalikan true
+         arr2[0][1];    // mengembalikan "dua"
+         data[10];      // mengembalikan undefined
+
+
+ Sebagai sebuah objek khusus, array juga memiliki method dan properti. Beberapa method dan
+ properti yang populer misalnya length, pop(), dan push().
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                     84
+        var data = ["a", "b", "c"];
+        // data.length mengembalikan 3
+        data.push("d"); // mengembalikan 4 data menjadi ["a", "b", "c", "d"]
+        data.pop(); // mengembalikan "d", data menjadi ["a", "b", "c"]
+
+
+ 11.4.2.4 Pengendalian Struktur
+ Javascript memiliki perintah-perintah pengendalian struktur (control stucture) yang sama dengan
+ bahasa dalam keluarga C. Perintah if dan else digunakan untuk percabangan, sementara perintah
+ for, for-in, while, dan do-while digunakan untuk perulangan.
+
+ Percabangan pada Javascript bisa dikatakan sama persis dengan C atau Java:
+        var gelar;
+        var pendidikan = "S2";
+        if (pendidikan === "S1") {
+          gelar = "Sarjana";
+        } else if (pendidikan === "S2") {
+          gelar = "Master";
+        } else if (pendidikan === "S3") {
+          gelar = "Doktor";
+        } else {
+          gelar = "Tidak Diketahui";
+        }
+        gelar; // gelar berisi "Master"
+
+
+ Satu hal yang perlu diperhatikan, tiga buah sama dengan (===) digunakan pada operasi
+ perbandingan di Javascript. Javascript mendukung dua operator perbandingan sama dengan, yaitu
+ == dan ===. Perbedaan utamanya adalah == mengubah tipe data yang dicek menjadi nilai terdekat,
+ sementara === memastikan tipe data dari dua nilai yang dibandingkan sama. Untuk mendapatkan
+ nilai perbandingan paling akurat, selalu gunakan === ketika mengecek nilai.
+ Sama seperti if, perulangan do, do-while, dan for memiliki cara pemakaian yang dapat dikatakan
+ sama persis dengan C atau Java:
+        while (true) {
+            // tak pernah berhenti
+        } var input; do {
+        input = get_input();
+        } while (inputIsNotValid(input)) for
+        (var i = 0; i < 5; i++) {
+            // berulang sebanyak 5 kali }
+
+
+
+ 11.4.3 Object Orientation pada Javascript
+ Javascript memiliki dua jenis tipe data utama, yaitu tipe data dasar dan objek. Tipe data dasar pada
+ Javascript adalah angka (numbers), rentetan karakter (strings), boolean (true dan false), null, dan
+ undefined. Nilai-nilai selain tipe data dasar secara otomatis dianggap sebagai objek. Objek dalam
+ Javascript didefinisikan sebagai mutable properties collection, yang artinya adalah sekumpulan
+ properti (ciri khas) yang dapat berubah nilainya. Karena nilai-nilai selain tipe data dasar merupakan
+ objek, maka pada Javascript sebuah Array adalah objek. Fungsi adalah objek dan Regular expression
+ juga merupakan objek.
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                       85
+ 11.4.3.1 Pembuatan Object pada Javascript
+ Notasi pembuatan objek pada Javascript sangat sederhana, yaitu sepasang kurung kurawal yang
+ membungkus properti. Notasi pembuatan objek ini dikenal dengan nama object literal. Object
+ literal dapat digunakan kapanpun pada ekspresi Javascript yang valid:
+         var objek_kosong = {};
+         var mobil = {
+             "warna-badan": "merah",
+             "nomor-polisi": "BK1234AB"
+         };
+
+
+ Nama properti dari sebuah objek harus berupa string, dan boleh berisi string kosong (""). Jika
+ merupakan nama Javascript yang legal, kita tidak memerlukan petik ganda pada nama properti.
+ Petik ganda seperti pada contoh ("warna-badan") hanya diperlukan untuk nama Javascript ilegal
+ atau kata kunci seperti “if” atau “var”. Misalnya, "nomor-polisi" memerlukan tanda petik,
+ sementara nomor_polisi tidak. Contoh lain, variasi tidak memerlukan tanda petik, sementara " var"
+ perlu.
+ Sebuah objek dapat menyimpan banyak properti, dan setiap properti dipisahkan dengan tanda
+ koma (,). Jika ada banyak properti, nilai dari properti pada setiap objek boleh berbeda-beda:
+         var jadwal = {
+            platform: 34,
+            telah_berangkat:
+         false,
+            tujuan: "Medan",
+            asal: "Jakarta"
+         };
+
+
+ Karena dapat diisikan dengan nilai apapun (termasuk objek), maka kita dapat membuat objek yang
+ mengandung objek lain (nested object; objek bersarang) seperti berikut:
+
+
+         var jadwal =
+         {     platform: 34,
+         telah_berangkat: false,
+         asal:
+         {          kode_kota:
+         "MDN",          nama_kota:
+         "Medan",          waktu:
+         "2013-12-29 14:00"
+             },      tujuan:
+         {          kode_kota:
+         "JKT",          nama_kota:
+         "Jakarta",          waktu:
+         "2013-12-29 17.30"
+             }
+         };
+
+
+ 11.4.3.2 Akses Nilai Property
+ Akses nilai properti dapat dilakukan dengan dua cara, yaitu.
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                   86
+   1. Penggunaan kurung siku ([]) setelah nama objek. Kurung siku kemudian diisikan dengan
+      nama properti, yang harus berupa string. Cara ini biasanya digunakan untuk nama properti
+      yang adalah nama ilegal atau kata kunci Javascript.
+   2. Penggunaan tanda titik (.) setelah nama objek diikuti dengan nama properti. Notasi ini
+      merupakan notasi yang umum digunakan pada bahasa pemrograman lainnya. Notasi ini tidak
+      dapat digunakan untuk nama ilegal atau kata kunci Javascript.
+ Contoh penggunaan kedua cara pemanggilan di atas adalah sebagai berikut:
+       mobil["warna-badan"] // Hasil: "merah"
+       jadwal.platform           // Hasil: 34
+
+ Sebagai bahasa dinamis, Javascript tidak akan melemparkan pesan kesalahan jika kita mengakses
+ properti yang tidak ada dalam objek. Kita akan menerima nilai undefined jika mengakses properti
+ yang tidak ada:
+       jadwal.nomor_kursi        // Hasil: undefined mobil
+       ["jumlah-roda"]           // Hasil: undefined
+
+
+
+ Pengaksesan properti pada Javascript juga dapat digunakan secara dinamis untuk mengubah nilai
+ dari properti tersebut. Perubahan nilai properti juga dapat dilakukan untuk properti yang bahkan
+ tidak ada pada objek tersebut:
+       mobil["jumlah-roda"] = 4;
+       mobil.bahan_bakar = "Bensin";
+
+
+
+ 11.4.3.3 Prototype pada Javascript
+ Pada Javascript yang mengimplementasikan PBO kita tidak lagi perlu menuliskan kelas, dan
+ langsung melakukan penurunan terhadap objek. Misalkan kita memiliki objek mobil yang
+ sederhana seperti berikut:
+         var mobil = { nama:
+         "Mobil", jumlahBan: 4 };
+
+ Kita dapat langsung menurunkan objek tersebut dengan menggunakan fungsi Object.create
+ seperti berikut:
+         var truk =
+         Object.create(mobil);
+         // truk.nama === "Mobil"
+         // truk.jumlahBan === 4
+
+
+
+ 11.4.4 Function pada Javascript
+ Sebuah fungsi membungkus satu atau banyak perintah. Setiap kali fungsi dipanggil, maka
+ perintahperintah yang ada di dalam fungsi tersebut dijalankan. Secara umum fungsi digunakan
+ untuk penggunaan kembali kode (code reuse) dan penyimpanan informasi (information hiding).
+ Implementasi fungsi kelas pertama juga memungkinkan penggunaan fungsi sebagai unit-unit yang
+ dapat dikombinasikan, seperti layaknya sebuah lego. Dukungan terhadap pemrograman
+ berorientasi objek juga berarti fungsi dapat digunakan untuk memberikan perilaku tertentu dari
+ sebuah objek.
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                  87
+ 11.4.4.1 Pembuatan Fungsi pada Javascript
+ Sebuah fungsi pada Javascript dibuat dengan cara seperti berikut:
+         function tambah(a, b)
+         {
+              hasil = a + b;
+              return hasil;
+         }
+
+ Cara penulisan fungsi seperti diatas dikenal dengan nama function declaration, atau deklarasi fungsi.
+ Terdapat empat komponen yang membangun fungsi di atas, yaitu:
+
+    1. Kata kunci function, yang memberitahu Javascript bahwa akan dibuat sebuah fungsi.
+    2. Nama fungsi, dalam contoh di atas adalah tambah. Dengan memberikan sebuah fungsi nama
+       maka pemanggilan fungsi dapat dirujuk dengan nama tersebut. Harus diingat bawa nama
+       fungsi bersifat opsional, yang berarti fungsi pada Javascript tidak harus diberi nama.
+    3. Daftar parameter fungsi, yaitu a, b pada contoh di atas. Daftar parameter ini selalu dikelilingi
+       oleh tanda kurung (()). Parameter boleh kosong, tetapi tanda kurung wajib tetap dituliskan.
+       Parameter fungsi akan secara otomatis didefinisikan menjadi variabel yang hanya bisa
+       dipakai di dalam fungsi. Variabel pada parameter ini diisi dengan nilai yang dikirimkan kepada
+       fungsi secara otomatis.
+    4. Sekumpulan perintah yang ada di dalam kurung kurawal ({}). Perintah-perintah ini dikenal
+       dengan nama badan fungsi. Badan fungsi dieksekusi secara berurut ketika fungsi dijalankan.
+ Penulisan deklarasi fungsi (function declaration) seperti di atas merupakan cara penulisan fungsi
+ yang umumnya kita gunakan pada bahasa pemrograman imperatif dan berorientasi objek. Tetapi
+ selain deklarasi fungsi Javascript juga mendukung cara penulisan fungsi lain, yaitu dengan
+ memanfaatkan ekspresi fungsi (function expression). Ekspresi fungsi merupakan cara pembuatan
+ fungsi yang memperbolehkan menuliskan fungsi tanpa nama. Fungsi yang dibuat tanpa nama
+ dikenal dengan sebutan fungsi anonim atau fungsi lambda. Berikut adalah cara membuat fungsi
+ dengan ekspresi fungsi:
+         var tambah = function (a, b)
+         {
+              hasil = a + b;
+              return hasil;
+         };
+
+
+
+ Terdapat hanya sedikit perbedaan antara ekspresi fungsi dan deklarasi fungsi:
+
+   1.   Penamaan fungsi. Pada deklarasi fungsi, nama fungsi langsung diberikan sesuai dengan
+        sintaks yang disediakan Javascript. Penggunaan ekspresi fungsi pada dasarnya menyimpan
+        sebuah fungsi anonim ke dalam variabel dan nama fungsi adalah nama variabel yang dibuat.
+        Perlu diingat juga bahwa pada dasarnya ekspresi fungsi adalah fungsi anonim. Penyimpanan
+        ke dalam variabel hanya diperlukan karena kita akan memanggil fungsi nantinya.
+   2.   Ekspresi fungsi dapat dipandang sebagai sebuah ekspresi atau perintah standar bagi
+        Javascript, sama seperti penuliskan kode var i = 0. Deklarasi fungsi merupakan konstruksi
+        khusus untuk membuat fungsi. Hal ini berarti pada akhir dari ekspresi fungsi kita harus
+        menambahkan, sementara pada deklarasi fungsi hal tersebut tidak penting.
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                        88
+ 11.4.4.2 Pemanggilan Fungsi
+ Sebuah fungsi dapat dipanggil untuk menjalankan seluruh kode yang ada di dalam fungsi tersebut,
+ sesuai dengan parameter yang kita berikan. Pemanggilan fungsi dilakukan dengan cara menuliskan
+ nama fungsi tersebut, kemudian mengisikan argumen yang ada di dalam tanda kurung.
+ Misalkan fungsi tambah yang kita buat pada bagian sebelumnya:
+         var tambah = function (a, b)
+         {
+
+              hasil = a + b;
+
+              return hasil;
+
+         };
+
+ dapat dipanggil seperti berikut:
+         tambah(3, 5);
+
+ Yang terjadi pada kode di atas adalah nilai a dan b masing-masing digantikan dengan 3 dan 5. Seperti
+ yang dapat dilihat, hal ini berarti pengisian argumen pada saat pemanggilan fungsi harus berurut
+ sesuai dengan deklarasi fungsi.
+ Sama seperti sebuah variabel, fungsi juga mengembalikan nilai ketika dipanggil. Dalam kasus di atas,
+ tambah(3, 5) akan mengembalikan nilai 8. Nilai ini tentunya dapat disimpan ke dalam variabel baru,
+ atau bahkan dikirimkan sebagai sebuah argumen ke fungsi lain lagi:
+         var simpan = tambah(3, 5); // simpan === 8
+         tambah(simpan, 2);               // mengembalikan 10
+         tambah(tambah(3, 5), 2)          // juga mengembalikan 10
+         tambah(tambah(2, 3), 4)          // mengembalikan 9
+
+
+
+ Fungsi akan mengembalikan nilai ketika kata kunci return ditemukan. Pengembalian nilai fungsi
+ dapat dilakukan kapanpun, dan fungsi akan segera berhenti ketika kata kunci return ditemukan.
+ Berikut adalah contoh kode yang memberikan gambaran tentang pengembalian nilai fungsi:
+         var naikkan = function (n) {
+         var hasil = n + 10; return
+         hasil;
+         // kode di bawah tidak dijalankan lagi hasil
+         = hasil * 100;
+         } naikkan(10);   // mengembalikan
+         20 naikkan(25); // mengembalikan
+         35
+
+
+ Sebuah ekspresi dapat juga diberikan langsung kepada keyword return, dan ekspresi tersebut akan
+ dijalankan sebelum nilai dikembalikan. Hal ini berarti fungsi tambah maupun naikkan yang
+ sebelumnya bisa disederhanakan dengan tidak lagi menyimpan nilai di variabel hasil terlebih
+ dahulu:
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                                                                      89
+         var naikkan = function (n) {
+         return n + 10;
+         } var tambah = function (a,
+         b) {     return a + b;
+         } tambah(4, 4);           // mengembalikan 8
+         naikkan(10);              // mengembalikan 20
+         tambah(naikkan(5), 7);    // mengembalikan 22
+
+
+
+
+PEMROGRAMAN BERORIENTASI OBJEK                           90
+

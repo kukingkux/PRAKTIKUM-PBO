@@ -1,0 +1,11 @@
+body {
+  background-color: HSL(20%, 40%, 70%);
+  color: orange;
+}
+
+#teks {
+  color: #2f3cdf;
+}
+input.text-field {
+  background-color: RGBA(32, 55, 122, 0.5);
+}
