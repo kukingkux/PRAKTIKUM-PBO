@@ -1,1 +1,4 @@
-servlets\PrakServlet.class
+servlets\TestServlet.class
+classes\JDBC.class
+servlets\BarangServlet.class
+servlets\LoginServlet.class
